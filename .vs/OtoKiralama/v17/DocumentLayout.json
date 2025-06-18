@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Migrations\\20250618164333_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250618164333_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\migrations\\20250618163520_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:migrations\\20250618163520_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|c:\\users\\asimc\\onedrive\\masa\u00FCst\u00FC\\otokiralama\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A063E382-4017-44B7-A7D6-5E1B10ACB19F}|OtoKiralama.csproj|solutionrelative:models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250618164333_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Migrations\\20250618164333_AddIdentity.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250618164333_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Migrations\\20250618164333_AddIdentity.cs",
+              "RelativeToolTip": "Migrations\\20250618164333_AddIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:43:33.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:40:34.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:27:06.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:29:38.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250618163520_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Migrations\\20250618163520_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250618163520_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Migrations\\20250618163520_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250618163520_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:35:20.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T16:28:05.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T16:27:46.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Models\\Car.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\Car.cs",
+              "RelativeToolTip": "Models\\Car.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:21:03.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\asimc\\OneDrive\\Masa\u00FCst\u00FC\\OtoKiralama\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:18:27.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
