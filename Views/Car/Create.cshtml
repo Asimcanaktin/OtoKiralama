@@ -1,0 +1,31 @@
+﻿@model OtoKiralama.Models.Car
+
+@{
+    ViewBag.Title = "Araç Ekle";
+}
+
+<h2>Araç Ekle</h2>
+<form asp-action="Create" method="post">
+    <div>
+        <label>Marka:</label>
+        <input asp-for="Brand" required />
+    </div>
+    <div>
+        <label>Model:</label>
+        <input asp-for="Model" required />
+    </div>
+    <div>
+        <label>Yıl:</label>
+        <input asp-for="Year" type="number" required />
+    </div>
+    <div>
+        <label>Plaka:</label>
+        <input asp-for="PlateNumber" required />
+    </div>
+    <div>
+        <label>Müsait mi?</label>
+        <input asp-for="IsAvailable" type="checkbox" />
+    </div>
+    <button type="submit">Kaydet</button>
+</form>
+<a href="@Url.Action("Index", "Car")">Listeye Dön</a>

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<OtoKiralama.Models.Car>
+
+@{
+    ViewBag.Title = "Araç Listesi";
+}
+
+<h2>Araç Listesi</h2>
+<a href="@Url.Action("Create", "Car")">Yeni Araç Ekle</a>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Marka</th>
+        <th>Model</th>
+        <th>Yıl</th>
+        <th>Plaka</th>
+        <th>Müsaitlik</th>
+    </tr>
+    @foreach (var car in Model)
+    {
+        <tr>
+            <td>@car.Brand</td>
+            <td>@car.Model</td>
+            <td>@car.Year</td>
+            <td>@car.PlateNumber</td>
+            <td>@(car.IsAvailable ? "Müsait" : "Dolu")</td>
+        </tr>
+    }
+</table>
