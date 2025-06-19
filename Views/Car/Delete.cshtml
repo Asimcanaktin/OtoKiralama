@@ -1,0 +1,19 @@
+﻿@model OtoKiralama.Models.Car
+
+@{
+    ViewBag.Title = "Araç Sil";
+}
+
+<h2>Araç Sil</h2>
+<p>Bu aracı silmek istediğinizden emin misiniz?</p>
+<ul>
+    <li><b>Marka:</b> @Model.Brand</li>
+    <li><b>Model:</b> @Model.CarModel</li>
+    <li><b>Yıl:</b> @Model.Year</li>
+    <li><b>Plaka:</b> @Model.PlateNumber</li>
+</ul>
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Evet, Sil</button>
+    <a href="@Url.Action("Index", "Car")">Vazgeç</a>
+</form>

@@ -6,38 +6,97 @@ namespace OtoKiralama.Controllers
 {
     public class CarController : Controller
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext context;
 
         public CarController(AppDbContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         // Araçları listele
         public IActionResult Index()
         {
-            var cars = _context.Cars.ToList();
+            var cars = context.Cars.ToList();
             return View(cars);
         }
 
-        // GET: Car/Create
+        // Yeni araç ekle (GET)
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Car/Create
+        // Yeni araç ekle (POST)
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(Car car)
         {
             if (ModelState.IsValid)
             {
-                _context.Cars.Add(car);
-                _context.SaveChanges();
+                context.Cars.Add(car);
+                context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             return View(car);
+        }
+
+        // Araç düzenle (GET)
+        public IActionResult Edit(int id)
+        {
+            var car = context.Cars.Find(id);
+            if (car == null)
+                return NotFound();
+            return View(car);
+        }
+
+        // Araç düzenle (POST)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, Car updatedCar)
+        {
+            if (id != updatedCar.Id)
+                return NotFound();
+
+            if (ModelState.IsValid)
+            {
+                var car = context.Cars.Find(id);
+                if (car == null)
+                    return NotFound();
+
+                car.Brand = updatedCar.Brand;
+                car.CarModel = updatedCar.CarModel; 
+                car.Year = updatedCar.Year;
+                car.PlateNumber = updatedCar.PlateNumber;
+                car.IsAvailable = updatedCar.IsAvailable;
+                car.UpdatedAt = DateTime.Now;
+
+                context.SaveChanges();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(updatedCar);
+        }
+
+        // Araç sil (GET)
+        public IActionResult Delete(int id)
+        {
+            var car = context.Cars.Find(id);
+            if (car == null)
+                return NotFound();
+            return View(car);
+        }
+
+        // Araç sil (POST)
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var car = context.Cars.Find(id);
+            if (car == null)
+                return NotFound();
+
+            context.Cars.Remove(car);
+            context.SaveChanges();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

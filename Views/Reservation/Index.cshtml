@@ -1,0 +1,24 @@
+﻿@model IEnumerable<dynamic>
+@{
+    ViewBag.Title = "Rezervasyonlar";
+}
+
+<h2>Rezervasyonlar</h2>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Araç</th>
+        <th>Başlangıç</th>
+        <th>Bitiş</th>
+        <th>Kullanıcı</th>
+    </tr>
+    @foreach (var r in Model)
+    {
+        <tr>
+            <td>@r.Brand @r.CarModel</td>
+            <td>@r.StartDate.ToShortDateString()</td>
+            <td>@r.EndDate.ToShortDateString()</td>
+            <td>@r.UserName</td>
+        </tr>
+    }
+</table>
+<a href="@Url.Action("Create", "Reservation")">Yeni Rezervasyon Yap</a>

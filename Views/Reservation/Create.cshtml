@@ -1,0 +1,29 @@
+﻿@model OtoKiralama.Models.Reservation
+@{
+    ViewBag.Title = "Rezervasyon Yap";
+    var cars = ViewBag.Cars as List<OtoKiralama.Models.Car>;
+}
+
+<h2>Rezervasyon Yap</h2>
+<form asp-action="Create" method="post">
+    <div>
+        <label>Araç:</label>
+        <select asp-for="CarId" required>
+            <option value="">Seçiniz</option>
+            @foreach (var car in cars)
+            {
+                <option value="@car.Id">@car.Brand @car.CarModel (@car.PlateNumber)</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label>Başlangıç Tarihi:</label>
+        <input asp-for="StartDate" type="date" required />
+    </div>
+    <div>
+        <label>Bitiş Tarihi:</label>
+        <input asp-for="EndDate" type="date" required />
+    </div>
+    <button type="submit">Rezervasyon Yap</button>
+</form>
+<a href="@Url.Action("Index", "Reservation")">Rezervasyon Listesine Dön</a>

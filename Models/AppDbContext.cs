@@ -9,5 +9,7 @@ namespace OtoKiralama.Models
 
         public DbSet<Car> Cars { get; set; }
         // Diğer DbSet’ler
+        public DbSet<Reservation> Reservations { get; set; }
+
     }
 }

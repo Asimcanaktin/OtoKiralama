@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtoKiralama")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69fa1cb210cb061f2ca57d508b39c66e5281e240")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78d01586bb82e88d6794c9bc4fdee2ebe750941d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtoKiralama")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtoKiralama")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

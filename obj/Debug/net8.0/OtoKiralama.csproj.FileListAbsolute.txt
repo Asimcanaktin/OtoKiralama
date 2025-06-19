@@ -172,3 +172,4 @@ C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\obj\Debug\net8.0\OtoKiralama.genr
 C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\obj\Debug\net8.0\ref\OtoKiralama.dll
 C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\obj\Debug\net8.0\OtoKiralama.sourcelink.json

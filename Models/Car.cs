@@ -10,7 +10,7 @@ namespace OtoKiralama.Models
 
         [Required]
         [StringLength(50)]
-        public string Model { get; set; }
+        public string CarModel { get; set; }
 
         [Required]
         public int Year { get; set; }
