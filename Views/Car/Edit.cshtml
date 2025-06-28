@@ -5,7 +5,7 @@
 }
 
 <h2>Araç Düzenle</h2>
-<form asp-action="Edit" method="post">
+<form asp-action="Edit" enctype="multipart/form-data">
     <input type="hidden" asp-for="Id" />
     <div>
         <label>Marka:</label>
@@ -23,6 +23,16 @@
         <label>Plaka:</label>
         <input asp-for="PlateNumber" required />
     </div>
+    <div class="form-group">
+        <label for="photo">Araç Fotoğrafı</label>
+        <input type="file" name="photo" class="form-control" />
+    </div>
+    @if (Model.PhotoPath != null)
+    {
+        <div>
+            <img src="@Model.PhotoPath" alt="Araç Fotoğrafı" style="max-width:200px;max-height:200px;" />
+        </div>
+    }
     <div>
         <label>Müsait mi?</label>
         <input asp-for="IsAvailable" type="checkbox" />

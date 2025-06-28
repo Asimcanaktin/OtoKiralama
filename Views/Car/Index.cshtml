@@ -1,27 +1,50 @@
 ﻿@model IEnumerable<OtoKiralama.Models.Car>
-
 @{
-    ViewBag.Title = "Araç Listesi";
+	ViewBag.Title = "Araçlar";
 }
-
 <h2>Araç Listesi</h2>
-<a href="@Url.Action("Create", "Car")">Yeni Araç Ekle</a>
-<table border="1" cellpadding="5">
-    <tr>
-        <th>Marka</th>
-        <th>Model</th>
-        <th>Yıl</th>
-        <th>Plaka</th>
-        <th>Müsaitlik</th>
-    </tr>
-    @foreach (var car in Model)
-    {
-        <tr>
-            <td>@car.Brand</td>
-            <td>@car.CarModel</td>
-            <td>@car.Year</td>
-            <td>@car.PlateNumber</td>
-            <td>@(car.IsAvailable ? "Müsait" : "Dolu")</td>
-        </tr>
-    }
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Fotoğraf</th>
+			<th>Marka</th>
+			<th>Model</th>
+			<th>Yıl</th>
+			<th>Plaka</th>
+			<th>Durum</th>
+			<th>İşlemler</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var car in Model)
+		{
+			<tr>
+				<td>
+					@if (!string.IsNullOrEmpty(car.PhotoPath))
+					{
+						<img src="@car.PhotoPath" alt="Araç Fotoğrafı" style="max-width:80px;max-height:80px;" />
+					}
+				</td>
+				<td>@car.Brand</td>
+				<td>@car.CarModel</td>
+				<td>@car.Year</td>
+				<td>@car.PlateNumber</td>
+				<td>
+					@(car.IsAvailable ? "Uygun" : "Dolu")
+				</td>
+				<td>
+					@if (User.IsInRole("Admin"))
+					{
+						<a href="@Url.Action("Edit", "Car", new { id = car.Id })">Düzenle</a>;
+						<a href="@Url.Action("Delete", "Car", new { id = car.Id })">Düzenle</a>;
+ 
+					}
+				</td>
+			</tr>
+		}
+	</tbody>
 </table>
+@if (User.IsInRole("Admin"))
+{
+	<a href="@Url.Action("Create", "Car")" class="btn btn-primary">Yeni Araç Ekle</a>
+}

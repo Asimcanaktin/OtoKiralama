@@ -6,6 +6,7 @@
 <h2>Rezervasyonlar</h2>
 <table border="1" cellpadding="5">
     <tr>
+        <th>Fotoğraf</th>
         <th>Araç</th>
         <th>Başlangıç</th>
         <th>Bitiş</th>
@@ -14,7 +15,14 @@
     @foreach (var r in Model)
     {
         <tr>
-            <td>@r.Brand @r.CarModel</td>
+            <td>
+                @* Fotoğraf yolu varsa göster *@
+                @if (r.Car != null && r.Car.PhotoPath != null)
+                {
+                    <img src="@r.Car.PhotoPath" alt="Araç Fotoğrafı" style="max-width:80px;max-height:80px;" />
+                }
+            </td>
+            <td>@r.Car.Brand @r.Car.CarModel</td>
             <td>@r.StartDate.ToShortDateString()</td>
             <td>@r.EndDate.ToShortDateString()</td>
             <td>@r.UserName</td>

@@ -20,5 +20,8 @@ namespace OtoKiralama.Models
         public string PlateNumber { get; set; }
 
         public bool IsAvailable { get; set; } = true;
+
+        [StringLength(200)]
+        public string? PhotoPath { get; set; } // Fotoğraf dosya yolu
     }
 }

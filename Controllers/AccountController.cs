@@ -1,22 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
 using OtoKiralama.Models;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace OtoKiralama.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IHttpClientFactory _httpClientFactory;
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(IHttpClientFactory httpClientFactory, UserManager<ApplicationUser> userManager)
+        public AccountController(
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
+            ILogger<AccountController> logger)
         {
-            _httpClientFactory = httpClientFactory;
             _userManager = userManager;
+            _signInManager = signInManager;
+            _logger = logger;
         }
 
         [HttpGet]
@@ -28,21 +31,19 @@ namespace OtoKiralama.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(string username, string password)
         {
-            var client = _httpClientFactory.CreateClient();
-            var loginData = new { Username = username, Password = password };
-            var content = new StringContent(JsonSerializer.Serialize(loginData), Encoding.UTF8, "application/json");
-            var response = await client.PostAsync("https://localhost:5001/api/auth/login", content); // Portunu kendi projenin portuna göre ayarla
-            if (response.IsSuccessStatusCode)
+            var user = await _userManager.FindByNameAsync(username);
+            if (user != null)
             {
-                var responseBody = await response.Content.ReadAsStringAsync();
-                ViewBag.Token = responseBody;
-                return View("LoginSuccess");
+                var result = await _signInManager.PasswordSignInAsync(user, password, false, false);
+                if (result.Succeeded)
+                {
+                    _logger.LogInformation("Kullanıcı giriş yaptı: {Username}", username);
+                    return RedirectToAction("Index", "Home");
+                }
             }
-            else
-            {
-                ViewBag.Error = "Kullanıcı adı veya şifre hatalı!";
-                return View();
-            }
+            ViewBag.Error = "Kullanıcı adı veya şifre hatalı!";
+            _logger.LogWarning("Başarısız giriş denemesi: {Username}", username);
+            return View();
         }
 
         [HttpGet]
@@ -57,14 +58,18 @@ namespace OtoKiralama.Controllers
             if (password != confirmPassword)
             {
                 ViewBag.Error = "Şifreler uyuşmuyor.";
+                _logger.LogWarning("Kayıt başarısız: Şifreler uyuşmuyor. Kullanıcı adı: {Username}", username);
                 return View();
             }
+
             var userExists = await _userManager.FindByNameAsync(username);
             if (userExists != null)
             {
                 ViewBag.Error = "Bu kullanıcı adı zaten alınmış.";
+                _logger.LogWarning("Kayıt başarısız: Kullanıcı adı zaten alınmış. Kullanıcı adı: {Username}", username);
                 return View();
             }
+
             ApplicationUser user = new ApplicationUser()
             {
                 UserName = username,
@@ -75,9 +80,12 @@ namespace OtoKiralama.Controllers
             if (!result.Succeeded)
             {
                 ViewBag.Error = "Kullanıcı oluşturulamadı.";
+                _logger.LogError("Kayıt başarısız: Kullanıcı oluşturulamadı. Kullanıcı adı: {Username}", username);
                 return View();
             }
+
             ViewBag.Success = "Kullanıcı başarıyla oluşturuldu.";
+            _logger.LogInformation("Yeni kullanıcı kaydı başarılı: {Username}", username);
             return View();
         }
     }

@@ -45,7 +45,7 @@ namespace OtoKiralama.Controllers
             if (car == null)
                 return NotFound();
             car.Brand = updatedCar.Brand;
-            car.CarModel = updatedCar.CarModel; // <-- DÜZELTİLDİ
+            car.CarModel = updatedCar.CarModel;
             car.Year = updatedCar.Year;
             car.PlateNumber = updatedCar.PlateNumber;
             car.IsAvailable = updatedCar.IsAvailable;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IKfbRRB9ecSrl50tB4mPu3ZmrXaWAU7POcDH0dIFN88=",
+  "Hash": "7b5/zvdaWEmP0fK6hiwer60g70zhBauxLfVQAqXuj6M=",
   "Source": "OtoKiralama",
   "BasePath": "_content/OtoKiralama",
   "Mode": "Default",
@@ -99,6 +99,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac1.jpg",
+      "SourceId": "OtoKiralama",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\",
+      "BasePath": "_content/OtoKiralama",
+      "RelativePath": "images/arac1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y1irglf5r2",
+      "Integrity": "2re23v9Yf1Pi4pwHtbZ8Y3pl6ZilUsI8mx7bpEsG5gM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\arac1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac2.jpg",
+      "SourceId": "OtoKiralama",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\",
+      "BasePath": "_content/OtoKiralama",
+      "RelativePath": "images/arac2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jv7gqf061n",
+      "Integrity": "3wHoxl49zI91u66Hryhm2QXSBMCll7Q6DTYkr00vNHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\arac2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\d0287d81-0452-4683-ad50-f9e5445daa6d.jpg",
+      "SourceId": "OtoKiralama",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\",
+      "BasePath": "_content/OtoKiralama",
+      "RelativePath": "images/d0287d81-0452-4683-ad50-f9e5445daa6d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ek7bkcxbn",
+      "Integrity": "+R02kFip4Tx4b9q6cDzb/HXNCnwkYkk9QHlYuOTdsv0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d0287d81-0452-4683-ad50-f9e5445daa6d.jpg"
     },
     {
       "Identity": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\js\\site.js",
@@ -1481,6 +1544,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/arac1.jpg",
+      "AssetFile": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2re23v9Yf1Pi4pwHtbZ8Y3pl6ZilUsI8mx7bpEsG5gM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 15:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2re23v9Yf1Pi4pwHtbZ8Y3pl6ZilUsI8mx7bpEsG5gM="
+        }
+      ]
+    },
+    {
+      "Route": "images/arac1.y1irglf5r2.jpg",
+      "AssetFile": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2re23v9Yf1Pi4pwHtbZ8Y3pl6ZilUsI8mx7bpEsG5gM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 15:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y1irglf5r2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/arac1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2re23v9Yf1Pi4pwHtbZ8Y3pl6ZilUsI8mx7bpEsG5gM="
+        }
+      ]
+    },
+    {
+      "Route": "images/arac2.jpg",
+      "AssetFile": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wHoxl49zI91u66Hryhm2QXSBMCll7Q6DTYkr00vNHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 15:42:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wHoxl49zI91u66Hryhm2QXSBMCll7Q6DTYkr00vNHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/arac2.jv7gqf061n.jpg",
+      "AssetFile": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3wHoxl49zI91u66Hryhm2QXSBMCll7Q6DTYkr00vNHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 15:42:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jv7gqf061n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/arac2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3wHoxl49zI91u66Hryhm2QXSBMCll7Q6DTYkr00vNHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/d0287d81-0452-4683-ad50-f9e5445daa6d.1ek7bkcxbn.jpg",
+      "AssetFile": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\d0287d81-0452-4683-ad50-f9e5445daa6d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+R02kFip4Tx4b9q6cDzb/HXNCnwkYkk9QHlYuOTdsv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:27:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ek7bkcxbn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d0287d81-0452-4683-ad50-f9e5445daa6d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+R02kFip4Tx4b9q6cDzb/HXNCnwkYkk9QHlYuOTdsv0="
+        }
+      ]
+    },
+    {
+      "Route": "images/d0287d81-0452-4683-ad50-f9e5445daa6d.jpg",
+      "AssetFile": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\d0287d81-0452-4683-ad50-f9e5445daa6d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+R02kFip4Tx4b9q6cDzb/HXNCnwkYkk9QHlYuOTdsv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 09:27:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+R02kFip4Tx4b9q6cDzb/HXNCnwkYkk9QHlYuOTdsv0="
         }
       ]
     },

@@ -1,0 +1,346 @@
+2025-06-26 18:45:02.016 +03:00 [INF] Executed DbCommand (53ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 18:45:02.087 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 18:45:02.212 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 256), @p3='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2025-06-26 18:45:02.391 +03:00 [INF] User profile is available. Using 'C:\Users\asimc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 18:45:02.735 +03:00 [INF] Now listening on: https://localhost:7174
+2025-06-26 18:45:02.736 +03:00 [INF] Now listening on: http://localhost:5018
+2025-06-26 18:45:02.825 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 18:45:02.826 +03:00 [INF] Hosting environment: Development
+2025-06-26 18:45:02.827 +03:00 [INF] Content root path: C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama
+2025-06-26 18:45:06.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 18:45:06.678 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 18:45:06.695 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 18:45:06.709 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 18:45:06.847 +03:00 [INF] Executed ViewResult - view Index executed in 139.2937ms.
+2025-06-26 18:45:06.849 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 150.0099ms
+2025-06-26 18:45:06.851 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 18:45:06.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 446.9538ms
+2025-06-26 18:45:06.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-06-26 18:45:06.916 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-06-26 18:45:06.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-06-26 18:45:06.915 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/OtoKiralama.styles.css?v=uyBgVlYEPjtIlztYRMCrexGeEorYQBTtzdYSP2Tpx-s - null null
+2025-06-26 18:45:06.916 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/lib/jquery/dist/jquery.min.js - null null
+2025-06-26 18:45:06.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-06-26 18:45:06.933 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 18:45:06.946 +03:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-06-26 18:45:06.946 +03:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-06-26 18:45:06.946 +03:00 [INF] The file /css/site.css was not modified
+2025-06-26 18:45:06.946 +03:00 [INF] The file /OtoKiralama.styles.css was not modified
+2025-06-26 18:45:06.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 38.6809ms
+2025-06-26 18:45:06.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 39.4319ms
+2025-06-26 18:45:06.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 39.7429ms
+2025-06-26 18:45:06.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/OtoKiralama.styles.css?v=uyBgVlYEPjtIlztYRMCrexGeEorYQBTtzdYSP2Tpx-s - 304 null text/css 51.979ms
+2025-06-26 18:45:06.948 +03:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-06-26 18:45:06.950 +03:00 [INF] The file /js/site.js was not modified
+2025-06-26 18:45:07.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 18:45:07.028 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 96.5139ms
+2025-06-26 18:45:07.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/lib/jquery/dist/jquery.min.js - 304 null text/javascript 115.887ms
+2025-06-26 18:45:07.033 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 108.9739ms
+2025-06-26 18:45:07.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.765ms
+2025-06-26 18:55:49.742 +03:00 [INF] Executed DbCommand (102ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 18:55:50.060 +03:00 [INF] User profile is available. Using 'C:\Users\asimc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 18:55:50.362 +03:00 [INF] Now listening on: https://localhost:7174
+2025-06-26 18:55:50.363 +03:00 [INF] Now listening on: http://localhost:5018
+2025-06-26 18:55:50.426 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 18:55:50.428 +03:00 [INF] Hosting environment: Development
+2025-06-26 18:55:50.428 +03:00 [INF] Content root path: C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama
+2025-06-26 18:55:51.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 18:55:51.993 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 18:55:52.013 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 18:55:52.027 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 18:55:52.204 +03:00 [INF] Executed ViewResult - view Index executed in 179.4442ms.
+2025-06-26 18:55:52.209 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 194.1696ms
+2025-06-26 18:55:52.211 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 18:55:52.221 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 502.9587ms
+2025-06-26 18:55:52.272 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac1.jpg - null null
+2025-06-26 18:55:52.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 18:55:52.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 18:55:52.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac2.jpg - null null
+2025-06-26 18:55:52.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac1.jpg - 404 0 null 27.8978ms
+2025-06-26 18:55:52.353 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7174/images/arac1.jpg, Response status code: 404
+2025-06-26 18:55:52.365 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 93.9243ms
+2025-06-26 18:55:52.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 166.9388ms
+2025-06-26 18:55:52.444 +03:00 [INF] Sending file. Request path: '/images/arac2.jpg'. Physical path: 'C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\wwwroot\images\arac2.jpg'
+2025-06-26 18:55:52.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac2.jpg - 200 60617 image/jpeg 177.2297ms
+2025-06-26 18:57:11.282 +03:00 [INF] Executed DbCommand (76ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 18:57:11.542 +03:00 [INF] User profile is available. Using 'C:\Users\asimc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 18:57:11.745 +03:00 [INF] Now listening on: https://localhost:7174
+2025-06-26 18:57:11.747 +03:00 [INF] Now listening on: http://localhost:5018
+2025-06-26 18:57:11.834 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 18:57:11.836 +03:00 [INF] Hosting environment: Development
+2025-06-26 18:57:11.837 +03:00 [INF] Content root path: C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama
+2025-06-26 18:57:12.767 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 18:57:13.018 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 18:57:13.041 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 18:57:13.057 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 18:57:13.207 +03:00 [INF] Executed ViewResult - view Index executed in 150.8955ms.
+2025-06-26 18:57:13.214 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 170.3061ms
+2025-06-26 18:57:13.217 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 18:57:13.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 18:57:13.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac1.jpg - null null
+2025-06-26 18:57:13.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 18:57:13.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 481.6793ms
+2025-06-26 18:57:13.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 31.5829ms
+2025-06-26 18:57:13.311 +03:00 [INF] Sending file. Request path: '/images/arac1.jpg'. Physical path: 'C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama\wwwroot\images\arac1.jpg'
+2025-06-26 18:57:13.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac1.jpg - 200 10486 image/jpeg 86.6293ms
+2025-06-26 18:57:13.321 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.8195ms
+2025-06-26 19:59:28.925 +03:00 [INF] Executed DbCommand (160ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 19:59:29.324 +03:00 [INF] User profile is available. Using 'C:\Users\asimc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 19:59:29.726 +03:00 [INF] Now listening on: https://localhost:7174
+2025-06-26 19:59:29.728 +03:00 [INF] Now listening on: http://localhost:5018
+2025-06-26 19:59:29.792 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 19:59:29.794 +03:00 [INF] Hosting environment: Development
+2025-06-26 19:59:29.795 +03:00 [INF] Content root path: C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama
+2025-06-26 19:59:32.545 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 19:59:33.280 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:33.336 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 19:59:33.384 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:33.717 +03:00 [INF] Executed ViewResult - view Index executed in 347.6629ms.
+2025-06-26 19:59:33.722 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 380.8084ms
+2025-06-26 19:59:33.723 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:33.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 1229.0856ms
+2025-06-26 19:59:33.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:33.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:33.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac2.jpg - null null
+2025-06-26 19:59:33.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac1.jpg - null null
+2025-06-26 19:59:33.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 47.2563ms
+2025-06-26 19:59:33.857 +03:00 [INF] The file /images/arac2.jpg was not modified
+2025-06-26 19:59:33.857 +03:00 [INF] The file /images/arac1.jpg was not modified
+2025-06-26 19:59:33.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac1.jpg - 304 null image/jpeg 62.7452ms
+2025-06-26 19:59:33.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac2.jpg - 304 null image/jpeg 62.7396ms
+2025-06-26 19:59:33.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 184.0757ms
+2025-06-26 19:59:42.008 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/Reservation - null null
+2025-06-26 19:59:42.023 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.ReservationController.Index (OtoKiralama)'
+2025-06-26 19:59:42.027 +03:00 [INF] Route matched with {action = "Index", controller = "Reservation"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.ReservationController (OtoKiralama).
+2025-06-26 19:59:42.209 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [c].[Brand], [c].[CarModel], [r].[StartDate], [r].[EndDate], [a].[UserName]
+FROM [Reservations] AS [r]
+INNER JOIN [Cars] AS [c] ON [r].[CarId] = [c].[Id]
+INNER JOIN [AspNetUsers] AS [a] ON [r].[UserId] = [a].[Id]
+2025-06-26 19:59:42.213 +03:00 [INF] Rezervasyon listesi görüntülendi. Toplam: 0
+2025-06-26 19:59:42.217 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:42.232 +03:00 [INF] Executed ViewResult - view Index executed in 16.9785ms.
+2025-06-26 19:59:42.234 +03:00 [INF] Executed action OtoKiralama.Controllers.ReservationController.Index (OtoKiralama) in 201.9602ms
+2025-06-26 19:59:42.236 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.ReservationController.Index (OtoKiralama)'
+2025-06-26 19:59:42.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/Reservation - 200 null text/html; charset=utf-8 237.1958ms
+2025-06-26 19:59:42.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:42.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:42.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 13.7711ms
+2025-06-26 19:59:42.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.6343ms
+2025-06-26 19:59:44.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 19:59:44.711 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:44.712 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 19:59:44.714 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:44.716 +03:00 [INF] Executed ViewResult - view Index executed in 2.772ms.
+2025-06-26 19:59:44.719 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 5.399ms
+2025-06-26 19:59:44.720 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:44.722 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 18.6064ms
+2025-06-26 19:59:44.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:44.756 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:44.770 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 14.558ms
+2025-06-26 19:59:44.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.3854ms
+2025-06-26 19:59:46.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/Account/Login - null null
+2025-06-26 19:59:46.566 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.AccountController.Login (OtoKiralama)'
+2025-06-26 19:59:46.572 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller OtoKiralama.Controllers.AccountController (OtoKiralama).
+2025-06-26 19:59:46.581 +03:00 [INF] Executing ViewResult, running view Login.
+2025-06-26 19:59:46.628 +03:00 [INF] Executed ViewResult - view Login executed in 47.4642ms.
+2025-06-26 19:59:46.629 +03:00 [INF] Executed action OtoKiralama.Controllers.AccountController.Login (OtoKiralama) in 55.4891ms
+2025-06-26 19:59:46.631 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.AccountController.Login (OtoKiralama)'
+2025-06-26 19:59:46.633 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/Account/Login - 200 null text/html; charset=utf-8 78.0998ms
+2025-06-26 19:59:46.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:46.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:46.673 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.913ms
+2025-06-26 19:59:46.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 8.0099ms
+2025-06-26 19:59:47.966 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 19:59:47.976 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:47.977 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 19:59:47.979 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:47.983 +03:00 [INF] Executed ViewResult - view Index executed in 4.1091ms.
+2025-06-26 19:59:47.985 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 6.5199ms
+2025-06-26 19:59:47.986 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:47.989 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 23.065ms
+2025-06-26 19:59:48.013 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:48.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:48.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 11.921ms
+2025-06-26 19:59:48.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8047ms
+2025-06-26 19:59:48.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/Home/Privacy - null null
+2025-06-26 19:59:48.801 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Privacy (OtoKiralama)'
+2025-06-26 19:59:48.804 +03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 19:59:48.809 +03:00 [INF] Executing ViewResult, running view Privacy.
+2025-06-26 19:59:48.815 +03:00 [INF] Executed ViewResult - view Privacy executed in 8.8206ms.
+2025-06-26 19:59:48.817 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Privacy (OtoKiralama) in 11.7412ms
+2025-06-26 19:59:48.819 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Privacy (OtoKiralama)'
+2025-06-26 19:59:48.820 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/Home/Privacy - 200 null text/html; charset=utf-8 33.3972ms
+2025-06-26 19:59:48.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:48.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:48.853 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 6.4847ms
+2025-06-26 19:59:48.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.2442ms
+2025-06-26 19:59:49.986 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 19:59:49.991 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:49.992 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 19:59:49.995 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:50.000 +03:00 [INF] Executed ViewResult - view Index executed in 5.1483ms.
+2025-06-26 19:59:50.002 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 7.4228ms
+2025-06-26 19:59:50.003 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:50.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 19.0905ms
+2025-06-26 19:59:50.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:50.030 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:50.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.9909ms
+2025-06-26 19:59:50.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3317ms
+2025-06-26 19:59:54.710 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/Car - null null
+2025-06-26 19:59:54.714 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.CarController.Index (OtoKiralama)'
+2025-06-26 19:59:54.724 +03:00 [INF] Route matched with {action = "Index", controller = "Car"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Boolean]) on controller OtoKiralama.Controllers.CarController (OtoKiralama).
+2025-06-26 19:59:54.760 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Brand], [c].[CarModel], [c].[CreatedAt], [c].[IsAvailable], [c].[PhotoPath], [c].[PlateNumber], [c].[UpdatedAt], [c].[Year]
+FROM [Cars] AS [c]
+2025-06-26 19:59:54.783 +03:00 [INF] Araç listesi filtrelendi. Toplam: 1
+2025-06-26 19:59:54.785 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:54.791 +03:00 [INF] Executed ViewResult - view Index executed in 7.0099ms.
+2025-06-26 19:59:54.793 +03:00 [INF] Executed action OtoKiralama.Controllers.CarController.Index (OtoKiralama) in 67.2434ms
+2025-06-26 19:59:54.794 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.CarController.Index (OtoKiralama)'
+2025-06-26 19:59:54.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/Car - 200 null text/html; charset=utf-8 84.9994ms
+2025-06-26 19:59:54.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:54.810 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:54.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 4.7311ms
+2025-06-26 19:59:54.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.7918ms
+2025-06-26 19:59:59.553 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 19:59:59.556 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:59.557 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 19:59:59.558 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 19:59:59.560 +03:00 [INF] Executed ViewResult - view Index executed in 2.1749ms.
+2025-06-26 19:59:59.562 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 4.019ms
+2025-06-26 19:59:59.563 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 19:59:59.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 11.9812ms
+2025-06-26 19:59:59.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 19:59:59.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 19:59:59.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 3.624ms
+2025-06-26 19:59:59.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.9567ms
+2025-06-26 20:00:02.433 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/Account/Login - null null
+2025-06-26 20:00:02.437 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.AccountController.Login (OtoKiralama)'
+2025-06-26 20:00:02.438 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller OtoKiralama.Controllers.AccountController (OtoKiralama).
+2025-06-26 20:00:02.446 +03:00 [INF] Executing ViewResult, running view Login.
+2025-06-26 20:00:02.451 +03:00 [INF] Executed ViewResult - view Login executed in 5.3377ms.
+2025-06-26 20:00:02.452 +03:00 [INF] Executed action OtoKiralama.Controllers.AccountController.Login (OtoKiralama) in 13.3487ms
+2025-06-26 20:00:02.453 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.AccountController.Login (OtoKiralama)'
+2025-06-26 20:00:02.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/Account/Login - 200 null text/html; charset=utf-8 22.3888ms
+2025-06-26 20:00:02.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:00:02.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:00:02.486 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 10.1706ms
+2025-06-26 20:00:02.491 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0982ms
+2025-06-26 20:00:03.673 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 20:00:03.677 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:00:03.680 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 20:00:03.681 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 20:00:03.684 +03:00 [INF] Executed ViewResult - view Index executed in 3.3214ms.
+2025-06-26 20:00:03.686 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 5.2517ms
+2025-06-26 20:00:03.687 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:00:03.688 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 16.0217ms
+2025-06-26 20:00:03.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:00:03.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:00:03.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.9488ms
+2025-06-26 20:00:03.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.1939ms
+2025-06-26 20:05:33.081 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 20:05:33.376 +03:00 [INF] User profile is available. Using 'C:\Users\asimc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 20:05:33.615 +03:00 [INF] Now listening on: https://localhost:7174
+2025-06-26 20:05:33.616 +03:00 [INF] Now listening on: http://localhost:5018
+2025-06-26 20:05:33.686 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:05:33.687 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:05:33.687 +03:00 [INF] Content root path: C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama
+2025-06-26 20:05:34.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 20:05:35.002 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:05:35.062 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 20:05:35.100 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 20:05:35.298 +03:00 [INF] Executed ViewResult - view Index executed in 208.3775ms.
+2025-06-26 20:05:35.304 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 237.7332ms
+2025-06-26 20:05:35.306 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:05:35.313 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 622.8901ms
+2025-06-26 20:05:35.334 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:05:35.334 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:05:35.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 15.224ms
+2025-06-26 20:05:35.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.4903ms
+2025-06-26 20:08:05.436 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-06-26 20:08:05.680 +03:00 [INF] User profile is available. Using 'C:\Users\asimc\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-06-26 20:08:05.902 +03:00 [INF] Now listening on: https://localhost:7174
+2025-06-26 20:08:05.904 +03:00 [INF] Now listening on: http://localhost:5018
+2025-06-26 20:08:05.979 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-26 20:08:05.980 +03:00 [INF] Hosting environment: Development
+2025-06-26 20:08:05.981 +03:00 [INF] Content root path: C:\Users\asimc\OneDrive\Masaüstü\OtoKiralama
+2025-06-26 20:08:06.674 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 20:08:06.933 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:08:06.952 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 20:08:06.966 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 20:08:07.122 +03:00 [INF] Executed ViewResult - view Index executed in 157.7924ms.
+2025-06-26 20:08:07.127 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 172.3021ms
+2025-06-26 20:08:07.129 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:08:07.135 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 474.042ms
+2025-06-26 20:08:07.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac2.jpg - null null
+2025-06-26 20:08:07.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:08:07.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:08:07.162 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/images/arac1.jpg - null null
+2025-06-26 20:08:07.204 +03:00 [INF] The file /images/arac2.jpg was not modified
+2025-06-26 20:08:07.206 +03:00 [INF] The file /images/arac1.jpg was not modified
+2025-06-26 20:08:07.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 45.4401ms
+2025-06-26 20:08:07.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac2.jpg - 304 null image/jpeg 54.3901ms
+2025-06-26 20:08:07.215 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/images/arac1.jpg - 304 null image/jpeg 54.3858ms
+2025-06-26 20:08:07.257 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.7035ms
+2025-06-26 20:08:09.019 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/Home/Contact - null null
+2025-06-26 20:08:09.029 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Contact (OtoKiralama)'
+2025-06-26 20:08:09.032 +03:00 [INF] Route matched with {action = "Contact", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Contact() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 20:08:09.035 +03:00 [INF] Executing ViewResult, running view Contact.
+2025-06-26 20:08:09.048 +03:00 [INF] Executed ViewResult - view Contact executed in 14.6774ms.
+2025-06-26 20:08:09.050 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Contact (OtoKiralama) in 16.658ms
+2025-06-26 20:08:09.051 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Contact (OtoKiralama)'
+2025-06-26 20:08:09.052 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/Home/Contact - 200 null text/html; charset=utf-8 33.8863ms
+2025-06-26 20:08:09.079 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:08:09.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:08:09.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 5.5057ms
+2025-06-26 20:08:09.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2474ms
+2025-06-26 20:08:13.502 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 20:08:13.507 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:08:13.508 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 20:08:13.510 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 20:08:13.513 +03:00 [INF] Executed ViewResult - view Index executed in 2.7264ms.
+2025-06-26 20:08:13.514 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 4.2656ms
+2025-06-26 20:08:13.515 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:08:13.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 14.5367ms
+2025-06-26 20:08:14.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:08:14.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:08:14.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 127.1642ms
+2025-06-26 20:08:14.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.9145ms
+2025-06-26 20:08:15.085 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/ - null null
+2025-06-26 20:08:15.090 +03:00 [INF] Executing endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:08:15.091 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OtoKiralama.Controllers.HomeController (OtoKiralama).
+2025-06-26 20:08:15.093 +03:00 [INF] Executing ViewResult, running view Index.
+2025-06-26 20:08:15.095 +03:00 [INF] Executed ViewResult - view Index executed in 2.4151ms.
+2025-06-26 20:08:15.096 +03:00 [INF] Executed action OtoKiralama.Controllers.HomeController.Index (OtoKiralama) in 3.8349ms
+2025-06-26 20:08:15.097 +03:00 [INF] Executed endpoint 'OtoKiralama.Controllers.HomeController.Index (OtoKiralama)'
+2025-06-26 20:08:15.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/ - 200 null text/html; charset=utf-8 13.0253ms
+2025-06-26 20:08:16.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_vs/browserLink - null null
+2025-06-26 20:08:16.223 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-26 20:08:16.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 10.5695ms
+2025-06-26 20:08:16.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7174/_vs/browserLink - 200 null text/javascript; charset=UTF-8 269.7195ms

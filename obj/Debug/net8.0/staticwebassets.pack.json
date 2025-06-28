@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac1.jpg",
+      "PackagePath": "staticwebassets\\images\\arac1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\arac2.jpg",
+      "PackagePath": "staticwebassets\\images\\arac2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\images\\d0287d81-0452-4683-ad50-f9e5445daa6d.jpg",
+      "PackagePath": "staticwebassets\\images\\d0287d81-0452-4683-ad50-f9e5445daa6d.jpg"
+    },
+    {
       "Id": "C:\\Users\\asimc\\OneDrive\\Masaüstü\\OtoKiralama\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -5,18 +5,18 @@ namespace OtoKiralama.Models
 {
     public class Reservation : BaseEntity
     {
-        [Required]
+        [Required(ErrorMessage = "Araç seçimi zorunludur.")]
         public int CarId { get; set; }
         public Car Car { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Kullanıcı bilgisi zorunludur.")]
         public string UserId { get; set; }
         public ApplicationUser User { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Başlangıç tarihi zorunludur.")]
         public DateTime StartDate { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Bitiş tarihi zorunludur.")]
         public DateTime EndDate { get; set; }
     }
 }
